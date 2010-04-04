@@ -37,5 +37,4 @@ clean:
 
 jar: all
 	$(RM) pictcon.jar
-	jar cvmf pictcon.mf pictcon.jar images/* *.class
-	jar uvmf pictcon.mf pictcon.jar $(foreach dir,$(SRCDIRS),$(dir)/*.class)
+	jar cvmfe pictcon.mf pictcon.jar PictorialConsequences images/ pictcon/ *.class
