@@ -8,8 +8,6 @@ SRCDIRS = pictcon/com pictcon/dialogs pictcon/gamewindow pictcon/paperwindow pic
 # Programs.
 JAVA = java
 JAVAC = javac -deprecation
-RM = rm -f
-# RM = del
 
 # Get all the .java files in the source directories.
 JAVAFILES = $(foreach dir,$(SRCDIRS),$(wildcard $(dir)/*.java))
